@@ -1,0 +1,25 @@
+.container{
+   width: 100%;
+   max-width: 1000px;
+   margin: 0px auto;
+   padding: 0px 20px;
+}
+.frame-box{
+   position: relative;
+}
+.img-box{
+   opacity: 0;
+   position: fixed;
+   top: 8px;
+}
+.open{
+   display: inline-block;
+}
+.js-num{
+   position: absolute;
+   background-color: #eeee;
+   padding: 5px 8px;
+   top: 10px;
+   right: 15px;
+   border-radius: 18px;
+}
